@@ -1,7 +1,12 @@
-/* MAIN */
+// Import base styles
+@import "base/normalize";
+@import "base/reset";
 
-/* BLOCKS */
+// Import utilities
+@import "utils/variables";
+@import "utils/media";
 
-/* AUTHORS */
-
-/* CONTENT */
+// Import modules
+@import "modules/header";
+@import "modules/main";
+@import "modules/footer";
