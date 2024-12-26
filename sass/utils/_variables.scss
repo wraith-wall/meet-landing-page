@@ -1,6 +1,64 @@
-/* FONTS */
-@import url("");
-
 /* COLORS */
-:root {
+// Cyan Colors
+$cyan-color: #4d96a9;
+$cyan-600-color: #4d96a9;
+$cyan-300-color: #8fe3f9;
+
+// Purple Colors
+$purple-color: #855fb1;
+$purple-600-color: #855fb1;
+$purple-300-color: #d9b8ff;
+
+// Slate Colors
+$slate-900-color: #28283d;
+$slate-600-color: #87879d;
+$slate-300-color: #d1d1df;
+
+// White Color
+$white-color: #fafafa;
+
+/* TYPOGRAPHY */
+// Text Preset 1
+%preset-1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900; // Black
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: 0px;
+}
+
+// Text Preset 2
+%preset-2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900; // Black
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0px;
+}
+
+// Text Preset 3
+%preset-3 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900; // Black
+  font-size: 16px;
+  line-height: 110%;
+  letter-spacing: 4px;
+}
+
+// Text Preset 4
+%preset-4 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500; // Medium
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0px;
+}
+
+// Text Preset 5
+%preset-5 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900; // Black
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
 }

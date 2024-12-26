@@ -10,6 +10,10 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/main.min.css" />
     <title>Frontend Mentor | Meet landing page</title>
   </head>
@@ -36,8 +40,25 @@
     </header>
     <main class="chat">
       <section class="chat__hero">
-        Meet makes it easy to connect with others face-to-face virtually and
-        collaborate across any device. Download v1.3 What is it?
+        <img
+          class="chat__left-image"
+          src="assets/desktop/image-hero-left.png"
+          alt="left image"
+        />
+        <img
+          class="chat__right-image"
+          src="assets/desktop/image-hero-right.png"
+          alt="right image"
+        />
+        <div class="chat__promo">
+          <h1 class="chat__title">Group Chat for Everyone</h1>
+          <p class="chat__descr">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <button class="chat__download">Download v1.3</button>
+          <button class="chat__about">What is it?</button>
+        </div>
       </section>
       <section class="chat__content">
         01 Built for modern use Smarter meetings, all in one place Send

@@ -1,0 +1,22 @@
+.chat {
+  padding: 64px 160px;
+  &__hero {
+    position: relative;
+  }
+  &__left-image {
+    position: absolute;
+    left: -186px;
+  }
+  &__right-image {
+    position: absolute;
+    right: -186px;
+  }
+  &__promo {
+    width: 448.3px;
+    height: 314px;
+    margin: 0 auto;
+  }
+  &__title {
+    @extend %preset-1;
+  }
+}
