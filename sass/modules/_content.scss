@@ -1,30 +1,6 @@
 .chat {
-  &__figure {
-    position: relative;
-    width: 1px;
-    height: 105px;
-    background-color: $slate-300-color;
-    margin: 0 auto;
-
-    &::after {
-      content: "01";
-      position: absolute;
-      bottom: calc(-1 * 28px);
-      left: 50%;
-      transform: translateX(-50%);
-      width: 56px;
-      height: 56px;
-      border: 1px solid $slate-300-color;
-      border-radius: 999px;
-      background-color: $white-color;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 16px;
-      color: $slate-600-color;
-      font-weight: 900;
-      font-family: "Red Hat Display", sans-serif;
-    }
+  &__figure-content {
+    @extend %preset-6;
   }
   &__images {
     display: flex;

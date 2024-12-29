@@ -36,7 +36,6 @@
     gap: 17px;
     margin-top: 31px;
     padding-inline: 38.65px;
-    // padding-bottom: 143px;
   }
   &__btn {
     height: 56px;
@@ -52,8 +51,17 @@
     }
   }
   &__download {
-    width: 193px;
+    min-width: 193px;
     background-color: $cyan-600-color;
+    &--footer {
+      background-color: $purple-600-color;
+      position: absolute;
+      top: 68px;
+      right: 162px;
+      span span {
+        color: $purple-300-color;
+      }
+    }
   }
   &__about {
     width: 161px;
