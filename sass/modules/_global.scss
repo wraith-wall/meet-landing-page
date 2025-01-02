@@ -1,4 +1,32 @@
+* {
+  padding: 0;
+}
+
+picture,
+img {
+  display: block;
+}
+
+html {
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-normal);
+  font-style: normal;
+  line-height: var(--lh-normal);
+  color: var(--clr-slate-600);
+  background-color: var(--clr-white);
+}
+
 body {
-  background-color: $white-color;
-  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 20rem; /* 320px */
+  display: grid;
+}
+
+.header,
+.chat,
+.hero,
+.content,
+.footer {
+  width: 100%;
+  overflow: hidden;
 }

@@ -1,70 +1,74 @@
-.chat {
-  padding: 64px 160px;
-  &__hero {
-    position: relative;
-    height: 483px;
-  }
-  &__left-image {
-    position: absolute;
-    left: -186px;
-  }
-  &__right-image {
-    position: absolute;
-    right: -186px;
-    top: 57px;
-  }
-  &__promo {
-    width: 448.3px;
-    height: 314px;
-    margin: 0 auto;
-  }
-  &__title-hero {
-    @extend %preset-1;
-    text-align: center;
-    margin: 0;
-    padding-top: 23px;
-  }
-  &__descr {
-    @extend %preset-4;
-    text-align: center;
-    margin-top: 32px;
-    color: $slate-600-color;
-    padding-inline: 5px;
-  }
-  &__buttons {
-    display: flex;
-    gap: 17px;
-    margin-top: 31px;
-    padding-inline: 38.65px;
-  }
-  &__btn {
-    height: 56px;
-    border-radius: 29px;
-    padding: 16px 40px;
-    border: none;
-    &--text {
-      @extend %preset-5;
-      color: $white-color;
-      span {
-        color: $cyan-300-color;
-      }
-    }
-  }
-  &__download {
-    min-width: 193px;
-    background-color: $cyan-600-color;
-    &--footer {
-      background-color: $purple-600-color;
-      position: absolute;
-      top: 68px;
-      right: 162px;
-      span span {
-        color: $purple-300-color;
-      }
-    }
-  }
-  &__about {
-    width: 161px;
-    background-color: $purple-600-color;
-  }
+// .chat {
+//   padding: 64px 160px;
+//   &__hero {
+//     position: relative;
+//     height: 483px;
+//   }
+//   &__left-image {
+//     position: absolute;
+//     left: -186px;
+//   }
+//   &__right-image {
+//     position: absolute;
+//     right: -186px;
+//     top: 57px;
+//   }
+//   &__promo {
+//     width: 448.3px;
+//     height: 314px;
+//     margin: 0 auto;
+//   }
+//   &__title-hero {
+//     @extend %preset-1;
+//     text-align: center;
+//     margin: 0;
+//     padding-top: 23px;
+//   }
+//   &__descr {
+//     @extend %preset-4;
+//     text-align: center;
+//     margin-top: 32px;
+//     color: $slate-600-color;
+//     padding-inline: 5px;
+//   }
+//   &__buttons {
+//     display: flex;
+//     gap: 17px;
+//     margin-top: 31px;
+//     padding-inline: 38.65px;
+//   }
+//   &__btn {
+//     height: 56px;
+//     border-radius: 29px;
+//     padding: 16px 40px;
+//     border: none;
+//     &--text {
+//       @extend %preset-5;
+//       color: $white-color;
+//       span {
+//         color: $cyan-300-color;
+//       }
+//     }
+//   }
+//   &__download {
+//     min-width: 193px;
+//     background-color: $cyan-600-color;
+//     &--footer {
+//       background-color: $purple-600-color;
+//       position: absolute;
+//       top: 68px;
+//       right: 162px;
+//       span span {
+//         color: $purple-300-color;
+//       }
+//     }
+//   }
+//   &__about {
+//     width: 161px;
+//     background-color: $purple-600-color;
+//   }
+// }
+.hero {
+  padding-block: 4rem 2rem;
+  padding-inline: 2rem;
 }
